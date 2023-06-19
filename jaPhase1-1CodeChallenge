@@ -1,0 +1,64 @@
+ //CODE CHALLENGE 1
+let studentMarks = between(0-100)
+ let grade; // 'let' variable is used because it allows a programmer to reassign values 
+    if (studentMarks >=79 &&
+        studentMarks <=100){
+        grade='A';
+                }
+ // 'else if statement is used on this program as a 'conditinal statement'
+ // thus enabling one to perform different actions based on the marks that each student attained
+     else if (studentMarks>=60 &&
+            studentMarks<=79){
+                grade='B'; 
+                } // '&&' is a logical operator, whereas in english one used the words'and' to add more information. In programming '&&' is used
+    else if (studentMarks>=59 &&
+            studentMarks<=49){
+                grade='C';
+                }
+    else if (studentMarks>=40 &&
+            studentMarks<=49){
+                grade='D';
+                }
+    else if (studentMarks>=0 &&
+            studentMarks<=40){
+                grade='E';
+                }
+               
+//CODE CHALLENGE 2
+let speed = between(0-70)
+ let carSpeed;
+  if (speed >=0 &&
+      Speed <=70){
+        print='OK';
+      }
+  else if (demeritPoints=(speed-70)/5){
+        print='demeritPoints';
+  }
+
+//CODE CHALENGE 3 (NHIF)
+let grossPay= Between(0-100000)
+ let grossIncomeTaxed(ksh);
+    if (grossPay >=0
+          grossPay <=5999){
+            tax='150';
+        }
+    else if (grossPay >=6000
+              grossPay <=7999){
+               tax='300';
+             }
+    else if (grossPay >=8000
+                grossPay <=11999){
+                 tax='400';
+               }        
+    else if (grossPay >=12000
+                grossPay <=14999){
+                 tax='500';
+               }     
+    else if (grossPay >=15000
+                grossPay <=19999){
+                 tax='600';
+               }     
+    else if (grossPay >=20000
+                grossPay <=29999){
+                 tax='750';
+               }  
